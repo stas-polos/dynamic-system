@@ -69,3 +69,6 @@ These checks ensure that the input matrices and vectors adhere to specific prope
 
 To select the system type, use the following buttons
 ![systems](https://github.com/stas-polos/dynamic-system/blob/master/images/select-type-systems.png?raw=true)
+
+As an option you can choose software control by the system
+![control-system](https://github.com/stas-polos/dynamic-system/blob/master/images/program-control.png?raw=true)
