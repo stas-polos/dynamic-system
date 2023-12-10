@@ -66,3 +66,6 @@ After entering the values for matrices and vectors, the program performs checks 
     * In the matrix $`(I−B)^{−1} (A−I)`$, elements on the main diagonal must be negative, and off-diagonal elements must be non-negative.
 
 These checks ensure that the input matrices and vectors adhere to specific properties required for the analysis of discrete and continuous systems, providing a robust and accurate foundation for subsequent calculations in the program.
+
+To select the system type, use the following buttons
+![systems](https://github.com/stas-polos/dynamic-system/blob/master/images/select-type-systems.png?raw=true)
