@@ -41,7 +41,7 @@ The choice also considered alternatives such as Python and PyQt, but the decisio
 
 The user interface (UI) of the program features the following elements:
 
-![Input](https://github.com/stas-polos/dynamic-system/blob/master/images/image.jpg?raw=true)
+![Input](https://github.com/stas-polos/dynamic-system/blob/master/images/image_ui_1.png?raw=true)
 
 * Input Fields for Matrices `A` and `B`, as well as Vectors `C0` and `X0`:
     Text input areas allowing the user to input values for matrices `A` and `B`, as well as vectors `C0` and `X0`.
