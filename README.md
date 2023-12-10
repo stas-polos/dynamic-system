@@ -72,3 +72,7 @@ To select the system type, use the following buttons
 
 As an option you can choose software control by the system, with the choice of the type of function with which the calculations will be performed, with a choice of functions for each type and approximation (omega).
 ![control-system](https://github.com/stas-polos/dynamic-system/blob/master/images/program-control.png?raw=true)
+
+As a result of the solutions, a graphical representation of the solution of the system for the selected type (discrete or continuous), as well as numerical solutions are displayed.
+![discrete](https://github.com/stas-polos/dynamic-system/blob/master/images/discreate-system.png?raw=true)
+![continuos](https://github.com/stas-polos/dynamic-system/blob/master/images/continuos-system.png?raw=true)
