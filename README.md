@@ -43,8 +43,8 @@ The user interface (UI) of the program features the following elements:
 
 ![Input](https://github.com/stas-polos/dynamic-system/blob/master/images/image_ui_1.png?raw=true)
 
-* Input Fields for Matrices $`A`$ and $`B`$, as well as Vectors $`C0`$ and $`X0`$:
-    Text input areas allowing the user to input values for matrices $`A`$ and $`B`$, as well as vectors $`C0`$ and $`X0`$.
+* Input Fields for Matrices $`A`$ and $`B`$, as well as Vectors $`C_{0}`$ and $`X_{0}`$:
+    Text input areas allowing the user to input values for matrices $`A`$ and $`B`$, as well as vectors $`C_{0}`$ and $`X_{0}`$.
 
 * Functionality for Changing Dimensions of Matrices and Vectors:
   * Controls or buttons enabling the user to dynamically change the dimensions (size) of matrices A and B and vectors C0 and X0. This ensures flexibility in handling different system configurations.
