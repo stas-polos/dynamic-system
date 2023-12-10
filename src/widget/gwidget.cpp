@@ -2,7 +2,7 @@
 #include <QtOpenGL>
 #include <math.h>
 #include "gwidget.h"
-#include "dynamic_system.h"
+#include "src/system/dynamic_system.h"
 
 GLWidget::GLWidget(QWidget * parent): QGLWidget(parent) {
   tX0 = 0;

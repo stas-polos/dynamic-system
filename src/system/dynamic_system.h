@@ -1,8 +1,8 @@
 #ifndef DSYS_H
 #define DSYS_H
 
-#include "matrix.h"
-#include "gwidget.h"
+#include "src/matrix/matrix.h"
+#include "src/widget/gwidget.h"
 #include <QWidget>
 #include <QDialog>
 

@@ -37,3 +37,32 @@ Thus, the selection of C++11 and Qt 4.7.3 for writing the program could be motiv
 
 The choice also considered alternatives such as Python and PyQt, but the decision leaned towards developing in the language that the framework itself was written in. While Python and PyQt were viable options, it was deemed more advantageous to align with the language in which the underlying framework was originally implemented. This decision ensures better integration with the core functionalities of the framework, potentially leveraging existing features and optimizations specific to the chosen programming language, in this case, C++.
 
+### UI overview
+
+The user interface (UI) of the program features the following elements:
+
+![Input](https://github.com/stas-polos/dynamic-system/blob/master/images/image.jpg?raw=true)
+
+* Input Fields for Matrices `A` and `B`, as well as Vectors `C0` and `X0`:
+    Text input areas allowing the user to input values for matrices `A` and `B`, as well as vectors `C0` and `X0`.
+
+* Functionality for Changing Dimensions of Matrices and Vectors:
+  * Controls or buttons enabling the user to dynamically change the dimensions (size) of matrices A and B and vectors C0 and X0. This ensures flexibility in handling different system configurations.
+
+* System Type Selection: Discrete and Continuous:
+  * A dropdown or selection mechanism allowing the user to choose between two types of systems: discrete and continuous. This selection influences the subsequent calculations and checks performed on the input matrices and vectors.
+
+* Calculation Step Size Selection:
+  * Input or selection mechanism for the user to specify the step size for calculations. This parameter determines the granularity of the computations and is especially relevant in dynamic systems.
+  
+After entering the values for matrices and vectors, the program performs checks on matrix properties based on the specified system type:
+
+* For Discrete Systems:
+  * Check for positivity and strict positivity (all elements of the matrix should be strictly greater than zero). Checks matrices `A`, `B`, `(A-B)`, $`(I−B)^(−1) (A−B)`$ 
+
+* For Continuous Systems:
+  * Check for non-negativity and productivity:
+    * Matrices A and B are checked for non-negativity.
+    * In the matrix $`(I−B)^(−1) (A−I)`$, elements on the main diagonal must be negative, and off-diagonal elements must be non-negative.
+
+These checks ensure that the input matrices and vectors adhere to specific properties required for the analysis of discrete and continuous systems, providing a robust and accurate foundation for subsequent calculations in the program.

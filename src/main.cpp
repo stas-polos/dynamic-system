@@ -1,6 +1,6 @@
 #include <QApplication>
 #include <QTextCodec>
-#include "dynamic_system.h"
+#include "system/dynamic_system.h"
 
 int main(int argc, char *argv[])
 {

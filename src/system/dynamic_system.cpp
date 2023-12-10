@@ -1,6 +1,6 @@
 #include "dynamic_system.h"
-#include "gwidget.h"
-#include "matrix.h"
+#include "src/widget/gwidget.h"
+#include "src/matrix/matrix.h"
 #include <QtGui>
 #include <QDialog>
 #include <QDateTime>
