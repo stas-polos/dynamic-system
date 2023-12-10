@@ -43,8 +43,8 @@ The user interface (UI) of the program features the following elements:
 
 ![Input](https://github.com/stas-polos/dynamic-system/blob/master/images/image_ui_1.png?raw=true)
 
-* Input Fields for Matrices `A` and `B`, as well as Vectors `C0` and `X0`:
-    Text input areas allowing the user to input values for matrices `A` and `B`, as well as vectors `C0` and `X0`.
+* Input Fields for Matrices $`A`$ and $`B`$, as well as Vectors $`C0`$ and $`X0`$:
+    Text input areas allowing the user to input values for matrices $`A`$ and $`B`$, as well as vectors $`C0`$ and $`X0`$.
 
 * Functionality for Changing Dimensions of Matrices and Vectors:
   * Controls or buttons enabling the user to dynamically change the dimensions (size) of matrices A and B and vectors C0 and X0. This ensures flexibility in handling different system configurations.
@@ -58,11 +58,11 @@ The user interface (UI) of the program features the following elements:
 After entering the values for matrices and vectors, the program performs checks on matrix properties based on the specified system type:
 
 * For Discrete Systems:
-  * Check for positivity and strict positivity (all elements of the matrix should be strictly greater than zero). Checks matrices `A`, `B`, `(A-B)`, $`(I−B)^(−1) (A−B)`$ 
+  * Check for positivity and strict positivity (all elements of the matrix should be strictly greater than zero). Checks matrices $`A`$, $`B`$, $`(A-B)`$, $`(I−B)^{−1} (A−B)`$ 
 
 * For Continuous Systems:
   * Check for non-negativity and productivity:
     * Matrices A and B are checked for non-negativity.
-    * In the matrix $`(I−B)^(−1) (A−I)`$, elements on the main diagonal must be negative, and off-diagonal elements must be non-negative.
+    * In the matrix $`(I−B)^{−1} (A−I)`$, elements on the main diagonal must be negative, and off-diagonal elements must be non-negative.
 
 These checks ensure that the input matrices and vectors adhere to specific properties required for the analysis of discrete and continuous systems, providing a robust and accurate foundation for subsequent calculations in the program.
