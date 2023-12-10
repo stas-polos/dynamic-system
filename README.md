@@ -76,3 +76,6 @@ As an option you can choose software control by the system, with the choice of t
 As a result of the solutions, a graphical representation of the solution of the system for the selected type (discrete or continuous), as well as numerical solutions are displayed.
 ![discrete](https://github.com/stas-polos/dynamic-system/blob/master/images/discreate-system.png?raw=true)
 ![continuos](https://github.com/stas-polos/dynamic-system/blob/master/images/continuos-system.png?raw=true)
+
+As additional functionality, matrix management, namely incrementing, decrementing elements of matrices $`A`$ and $`B`$, as well as calculating the value at point $`t`$
+![additional functional](https://github.com/stas-polos/dynamic-system/blob/master/images/addition-functional.png?raw=true)
